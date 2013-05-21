@@ -26,6 +26,7 @@
 
 /* Global Constants */
 
-static const std::string kShaderPath = "/Users/Moshe/Code/C++/OpenGL/Interborough2/Shaders/";
+static const std::string kShaderPath = "/Users/Moshe/Code/C++/OpenGL/Interborough2/Interborough2/Shaders/";
+static const GLfloat kFramerate = 60.0f; //	Target FPS
 
 #endif
