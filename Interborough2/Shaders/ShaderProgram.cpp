@@ -121,8 +121,12 @@ bool ShaderProgram::compile(GLuint shaderType, const GLchar *sourceCode, GLint *
 	//	If the compilation failed...
 	if (GL_FALSE == compilationResult)
 	{
+		
+		//	Depending on the shader type, set the diagnostic string
+		const char *error = shaderType == GL_VERTEX_SHADER ? "Vertex shader compilation failed.\n" : "Fragment shader compilation failed.\n";
+		
 		//	Print to stderr
-		fprintf(stderr, "Shader compilation failed!\n");
+		fprintf(stderr, "%s", error);
 		
 		//	Get the length of the GL  compilation log
 		GLint logLen;
