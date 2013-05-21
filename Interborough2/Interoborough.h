@@ -9,12 +9,18 @@
 #ifndef Interborough2_Interoborough_h
 #define Interborough2_Interoborough_h
 
+/* Library includes */
+
 #include <iostream>
 
 #include <OpenGL/OpenGL.h>
 #include <OpenGL/gl3.h>
 
 #include <string>
-#include <stlib>
+#include <stdlib.h>
+
+/* Global Constants */
+
+#define kShaderPath "/Users/Moshe/Code/C++/OpenGL/Interborough2/Shaders/"
 
 #endif
