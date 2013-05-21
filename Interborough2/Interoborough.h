@@ -21,6 +21,9 @@
 #include <string>
 #include <stdlib.h>
 
+#include "glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+
 /* Global Constants */
 
 static const std::string kShaderPath = "/Users/Moshe/Code/C++/OpenGL/Interborough2/Shaders/";
