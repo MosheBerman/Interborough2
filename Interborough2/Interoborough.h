@@ -13,6 +13,8 @@
 
 #include <iostream>
 
+#include <fstream>
+
 #include <OpenGL/OpenGL.h>
 #include <OpenGL/gl3.h>
 
