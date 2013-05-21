@@ -11,6 +11,6 @@ void main()
 {
 	faceIdentifierAsOutput = faceIdentifier;
 	//	Convert position into a vec4
-	gl_Position = vec4(position, 1.0)
+	gl_Position = vec4(position, 1.0);
 }
 
