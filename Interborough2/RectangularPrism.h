@@ -48,4 +48,14 @@ public:
 	void draw(glm::mat4 worldViewProjection);
 };
 
+typedef enum {
+	kPrismFaceBack = 0,
+	kPrismFaceFront,
+	kPrismFaceTop,
+	kPrismFaceBottom,
+	kPrismFaceLeft,
+	kPrismFaceRight
+	
+} kPrismFace;
+
 #endif /* defined(__Interborough2__RectangularPrism__) */
