@@ -23,6 +23,6 @@
 
 /* Global Constants */
 
-#define kShaderPath "/Users/Moshe/Code/C++/OpenGL/Interborough2/Shaders/"
+static const std::string kShaderPath = "/Users/Moshe/Code/C++/OpenGL/Interborough2/Shaders/";
 
 #endif
