@@ -15,8 +15,8 @@
 
 #include <fstream>
 
-#include <OpenGL/OpenGL.h>
-#include <OpenGL/gl3.h>
+#include "glew.h"
+#include <GLUT/GLUT.h>
 
 #include <string>
 #include <stdlib.h>
